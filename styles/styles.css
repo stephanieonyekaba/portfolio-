@@ -27,7 +27,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--color-primary);
-  font-family: "Playfair+Display", sans-serif;
+  font-family: "Sora", sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   -webkit-transition: all 0.4s ease-in-out;
@@ -257,5 +257,53 @@ section {
   background: rgba(12, 9, 9, 0.3);
   max-width: 600px;
   padding-left: 30px;
+}
+
+.main-title {
+  text-align: center;
+}
+
+.main-title h2 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.main-title h2 span {
+  color: var(--color-secondary);
+}
+
+.main-title h2 .bg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: var(--color-grey-5);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  z-index: -1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-weight: 800;
+  font-size: 6.3rem;
+}
+
+/*About*/
+/*About*/
+.about-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding-top: 3.5rem;
+  padding-bottom: 5rem;
+}
+
+.about-container .right-about {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
 }
 /*# sourceMappingURL=styles.css.map */
