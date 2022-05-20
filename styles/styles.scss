@@ -8,8 +8,8 @@
 
 }
 :root {
-    --color-primary: #191d2b;
-    --color-secondary: #27AE60;
+    --color-primary: #e0dab8;
+    --color-secondary: #68A7AD;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -25,8 +25,13 @@
 
 
   body {
+    
+
+    background-image: url("https://i.ibb.co/DLd2s5p/maria-orlova-b-U8-Te-Xhs-Pc-Y-unsplash-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: var(--color-primary);
-    font-family: "Poppins", sans-serif;
+    font-family: "Playfair", sans-serif;
     font-size: 1.1rem;
     color: var(--color-white);
     transition: all 0.4s ease-in-out;
@@ -57,33 +62,36 @@ section{
 .section {
     transform: translateY(-100%) scale(0);
     transition: all .4s ease-in-out;
-    background-color: var(--color-primary);
+    // background-image: url("https://i.ibb.co/d0n4nmP/60f6f3efb5987ed957c7d4ed-Sun-stars.jpg");
+    // background-repeat: no-repeat;
+    // background-size: auto;
+    // background-color: var(--color-primary);
 }
 
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #72e6a2;
+
 }
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #727ae6;
+
 }
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #72e6a2;
+
 }
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #3d50a3;
+
 }
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: #72e6a2;
+
 }
 
 .active{
@@ -139,3 +147,73 @@ section{
   .controls .active-btn i {
     color: var(--color-white);
   }
+
+
+//Header-content*/
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 100vh;
+    .left-header{
+        display: flex;
+        align-items: center;
+        position: relative;
+        // .h-shape{
+        //     transition: all .4s ease-in-out;
+        //     width: 65%;
+        //     height: 100%;
+        //     background-color: var(--color-secondary);
+       
+        //     position: absolute;
+        //     left: 0;
+        //     top: 0;
+        //     z-index: -1;
+        //     clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
+        // }
+        .image{
+            border-radius: var(--br-sm-2);
+            height: 90%;
+            width: 68%;
+            margin-left: 4rem;
+            background-color: var(--color-black);
+            transition: all .4s ease-in-out;
+            img{
+                border: 5px solid white;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                transition: all .4s ease-in-out;
+                filter: grayscale(100%);
+                &:hover{
+                    filter: grayscale(0);
+                }
+            }
+        }
+    }
+}
+
+.right-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    .name {
+        
+            font-size: 50px;
+            span {
+                color: var(--color-secondary);
+              
+            }
+        }
+    p {
+        margin: 40px;
+        line-height: 3px;
+      
+    }
+
+.header-box {
+    background: rgba(12, 9, 9, 0.3);
+    max-width: 600px;
+
+}
+}

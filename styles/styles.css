@@ -7,8 +7,8 @@
 }
 
 :root {
-  --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-primary: #e0dab8;
+  --color-secondary: #68A7AD;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,8 +23,11 @@
 }
 
 body {
+  background-image: url("https://i.ibb.co/DLd2s5p/maria-orlova-b-U8-Te-Xhs-Pc-Y-unsplash-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--color-primary);
-  font-family: "Poppins", sans-serif;
+  font-family: "Playfair", sans-serif;
   font-size: 1.1rem;
   color: var(--color-white);
   -webkit-transition: all 0.4s ease-in-out;
@@ -59,42 +62,36 @@ section {
           transform: translateY(-100%) scale(0);
   -webkit-transition: all .4s ease-in-out;
   transition: all .4s ease-in-out;
-  background-color: var(--color-primary);
 }
 
 .sec1 {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #72e6a2;
 }
 
 .sec2 {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #727ae6;
 }
 
 .sec3 {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #72e6a2;
 }
 
 .sec4 {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #3d50a3;
 }
 
 .sec5 {
   display: none;
   -webkit-transform: translateY(0) scale(1);
           transform: translateY(0) scale(1);
-  background-color: #72e6a2;
 }
 
 .active {
@@ -182,5 +179,81 @@ section {
 
 .controls .active-btn i {
   color: var(--color-white);
+}
+
+.header-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  min-height: 100vh;
+}
+
+.header-content .left-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.header-content .left-header .image {
+  border-radius: var(--br-sm-2);
+  height: 90%;
+  width: 68%;
+  margin-left: 4rem;
+  background-color: var(--color-black);
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.header-content .left-header .image img {
+  border: 5px solid white;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.header-content .left-header .image img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+.right-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.right-header .name {
+  font-size: 50px;
+}
+
+.right-header .name span {
+  color: var(--color-secondary);
+}
+
+.right-header p {
+  margin: 40px;
+  line-height: 3px;
+}
+
+.right-header .header-box {
+  background: rgba(12, 9, 9, 0.3);
+  max-width: 600px;
 }
 /*# sourceMappingURL=styles.css.map */
