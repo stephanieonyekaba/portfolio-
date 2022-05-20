@@ -63,23 +63,43 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #72e6a2;
 }
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #727ae6;
 }
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #72e6a2;
 }
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #3d50a3;
 }
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
+    background-color: #72e6a2;
 }
+
+.active{
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim {
+        0%{
+            transform: translateY(-100%) scaleY(0)
+        }
+
+        100%{
+            transform: translateY(-1) scaleY(1)
+        }
+    }
+}
+
 
 
 //these are the controls 
