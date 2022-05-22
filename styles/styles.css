@@ -261,32 +261,24 @@ section {
 
 .main-title {
   text-align: center;
+  width: 500px;
+  text-align: left;
+  font-size: 12px;
+  font-family: "Sora", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
 }
 
 .main-title h2 {
   position: relative;
   text-transform: uppercase;
   font-size: 4rem;
-  font-family: 'Sora';
+  font-family: "Sora", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: 100;
+  text-align: center;
 }
 
 .main-title h2 span {
   color: var(--color-secondary);
-}
-
-.main-title h2 .bg-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  color: var(--color-grey-5);
-  -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
-  z-index: -1;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  font-weight: 800;
-  font-size: 6.3rem;
 }
 
 /*About*/
