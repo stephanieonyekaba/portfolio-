@@ -281,6 +281,20 @@ section {
   color: var(--color-secondary);
 }
 
+.main-title h3 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: "Sora", 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+  text-align: left;
+  padding-top: 30px;
+}
+
+.main-title h3 span {
+  color: var(--color-secondary);
+}
+
 /*About*/
 /*About*/
 .about-container {
@@ -329,5 +343,62 @@ section {
 .about-container .right-about .about-item .aboutme-photo:hover {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
+}
+
+.about-control {
+  padding: 1rem;
+  cursor: pointer;
+  background-color: var(--box-shadow-1);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0.7rem 0;
+  -webkit-box-shadow: var(--box-shadow-1);
+          box-shadow: var(--box-shadow-1);
+  border: 1px solid white;
+  border-radius: 50%;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.about-control:hover {
+  background-color: white;
+  color: black;
+}
+
+.icon-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.icon-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=styles.css.map */
