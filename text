@@ -121,75 +121,153 @@
 
 
 
-                        </div>   
+                        </div>
+
+
+                           
         </section>
-
-
-
-
-
-
-
-
-    <section class="section sec3 portfolio" id="portfolio">
+        <section class="section sec3 portfolio" id="portfolio">
             <div class="portfolio-container"> 
-                        <div class="main-title">
-                            <h2>
-                                My <span> Projects </span>
-                            </h2>
-                            <hr>
+            <div class="main-title">
+            <h2>
+                My <span> Projects </span>
+            </h2>
+            <hr>
+      
+            <p class="port-text">
+                Here is some of my work that I've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                   <img src="https://i.ibb.co/GQGq8W0/Screen-Shot-2022-05-23-at-2-24-31-PM.png" > 
+                   <span>COLORBLIND GAME</span>
+                   <p> 
+                    Colorblind is a fun interactive color-picking game which prompts users to select the
+                     outlier color from a group of circles. 
+                    The inspiration for this game comes from the Instagram ‘Colorblind’ filter. 
+                   </p>
+
+                   <div class="portfolio-stats">
+                    <!-- <h4 class="stat-title">Technologies Used</h4> -->
+                    <div class="progress-bars">
+                        <div class="progress-bar">
+                            <p class="prog-title">JavaScript</p>
+                            <div class="progress-con">
+                                <p class="prog-text">70%</p>
+                                <div class="progress">
+                                    <span class="js-1"></span>
+                                </div>
+                            </div>
                         </div>
-                        <p class="port-text"> Here is some of my work that I've done in various programming languages.</p>
 
-                    
 
-                        <div class="portfolios">
-                            <div class="portfolio-item">
-                                <img src="https://i.ibb.co/GQGq8W0/Screen-Shot-2022-05-23-at-2-24-31-PM.png" > 
-                                <span>COLORBLIND GAME</span>
-                                <p> 
-                                    Colorblind is a fun interactive color-picking game which prompts users to select the
-                                    outlier color from a group of circles. 
-                                    The inspiration for this game comes from the Instagram ‘Colorblind’ filter. 
-                                </p>
-                                    <div class="hover-items">
-                                        <h3>Project Source</h3>
-                                        <div class="icons">
-                                            <a href="https://github.com/stephanieonyekaba/Game-Project-/tree/gh-pages" class="icon">
-                                                <i class="fab fa-github"></i>
-                                            </a>
-                                            <a href="https://stephanieonyekaba.github.io/Game-Project-/" class="icon">
-                                                <i class="fas fa-external-link-alt"></i>
-                                            </a>                  
+                        <div class="progress-bars">
+                            <div class="progress-bar">
+                                <p class="prog-title">HTML</p>
+                                <div class="progress-con">
+                                    <p class="prog-text">10%</p>
+                                    <div class="progress">
+                                        <span class="html-1"></span>
                                     </div>
-
                                 </div>
+                            </div>
 
-                        </div>
 
-                        <div class="portfolio-item">
-                            <img src="https://i.ibb.co/GQGq8W0/Screen-Shot-2022-05-23-at-2-24-31-PM.png" > 
-                            <span>COLORBLIND GAME</span>
-                            <p> 
-                                Colorblind is a fun interactive color-picking game which prompts users to select the
-                                outlier color from a group of circles. 
-                                The inspiration for this game comes from the Instagram ‘Colorblind’ filter. 
-                            </p>
-                                <div class="hover-items">
-                                    <h3>Project Source</h3>
-                                    <div class="icons">
-                                        <a href="https://github.com/stephanieonyekaba/Game-Project-/tree/gh-pages" class="icon">
-                                            <i class="fab fa-github"></i>
-                                        </a>
-                                        <a href="https://stephanieonyekaba.github.io/Game-Project-/" class="icon">
-                                            <i class="fas fa-external-link-alt"></i>
-                                        </a>                  
+                            <div class="progress-bars">
+                                <div class="progress-bar">
+                                    <p class="prog-title">CSS</p>
+                                    <div class="progress-con">
+                                        <p class="prog-text">20%</p>
+                                        <div class="progress">
+                                            <span class="css-1"></span>
+                                        </div>
+                                    </div>
                                 </div>
-
 
                     </div>
-                     
-                        
+
+
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/stephanieonyekaba/Game-Project-/tree/gh-pages" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://stephanieonyekaba.github.io/Game-Project-/" class="icon">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="portfolio-item">
+                    <div class="image">
+                   <img src="https://i.ibb.co/GQGq8W0/Screen-Shot-2022-05-23-at-2-24-31-PM.png" > 
+                   <span>COLORBLIND GAME</span>
+                   <p> 
+                    Colorblind is a fun interactive color-picking game which prompts users to select the
+                     outlier color from a group of circles. 
+                    The inspiration for this game comes from the Instagram ‘Colorblind’ filter. 
+                   </p>
+
+                   <div class="portfolio-stats">
+                    <!-- <h4 class="stat-title">Technologies Used</h4> -->
+                    <div class="progress-bars">
+                        <div class="progress-bar">
+                            <p class="prog-title">JavaScript</p>
+                            <div class="progress-con">
+                                <p class="prog-text">70%</p>
+                                <div class="progress">
+                                    <span class="js-1"></span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="progress-bars">
+                            <div class="progress-bar">
+                                <p class="prog-title">HTML</p>
+                                <div class="progress-con">
+                                    <p class="prog-text">10%</p>
+                                    <div class="progress">
+                                        <span class="html-1"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="progress-bars">
+                                <div class="progress-bar">
+                                    <p class="prog-title">CSS</p>
+                                    <div class="progress-con">
+                                        <p class="prog-text">20%</p>
+                                        <div class="progress">
+                                            <span class="css-1"></span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                    </div>
+
+
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/stephanieonyekaba/Game-Project-/tree/gh-pages" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://stephanieonyekaba.github.io/Game-Project-/" class="icon">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
 
 
 
@@ -199,8 +277,6 @@
 
 
 
-                    
-            </div>
 
 
 
@@ -208,18 +284,20 @@
 
 
 
-                        
 
 
+
+
+
+
+
+
+
+                
+               
+
+        </div>
         </section>
-
-
-
-
-
-
-
-
   
         <section class="section sec4 blogs" id="blogs"></section>
         <section class="section sec5 contact" id="contact"></section>
