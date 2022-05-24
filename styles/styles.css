@@ -306,7 +306,10 @@ section {
   padding-top: 50px;
   margin-top: 80px;
   padding-bottom: 5rem;
-  width: 1000px;
+  max-width: 1000px;
+  min-width: 960px;
+  position: fixed;
+  resize: none;
   background: rgba(12, 9, 9, 0.4);
 }
 
