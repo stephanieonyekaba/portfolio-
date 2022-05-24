@@ -33,7 +33,7 @@
     font-family: "Sora", sans-serif;
     font-size: 1.1rem;
     color: var(--color-white);
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
 
 a{
@@ -348,13 +348,14 @@ section{
 
 .portfolios{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
     margin-top: 3rem;
     color: var(--color-primary);
     font-size: 25px;
     font-weight: 100;
     font-family: "sora", Courier, monospace;
+  
         p {
             color: var(--color-primary);
             font-size: 15px;
@@ -370,7 +371,7 @@ section{
             object-fit: cover;
             border-radius: 5px;
             text-align: center;
-            color: red;
+            padding: 10px;
             filter: grayscale(100%);
             &:hover{
                 filter: grayscale(0);
@@ -400,6 +401,7 @@ section{
             transition: all .4s ease-in-out;
             backdrop-filter: blur(10px);
             background: rgba(206, 189, 189, 0.6);
+            overflow: hidden;
             
             h3{
                 font-size: 1.5rem;
