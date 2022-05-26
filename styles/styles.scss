@@ -567,15 +567,15 @@ section{
                 padding: .8rem 1.1rem;
                 outline: none;
                 border: none;
-                background-color: var(--color-primary);
                 width: 100%;
-                color: var(--color-secondary);
+                color: var(--color-primary);
                 resize: none;
             }
         }
         .i-c-2 {
  
             display: flex;
+            color: red;
             :last-child{
                 margin-left: 1.5rem;
             }
@@ -619,4 +619,6 @@ section{
         }
     }
 }
+
+
 
