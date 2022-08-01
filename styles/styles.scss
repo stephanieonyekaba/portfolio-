@@ -559,7 +559,6 @@ section{
         .input-control {
             margin: 1.5rem 0;
             input, textarea {
-           
                 border-radius: 0px;
                 font-weight: inherit;
                 font-size: 15px;
@@ -568,7 +567,7 @@ section{
                 outline: none;
                 border: none;
                 width: 100%;
-                color: var(--color-primary);
+                color: var(--color-secondary);
                 resize: none;
             }
         }
